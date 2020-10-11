@@ -7,7 +7,7 @@ This python script enables you to automatically download session protocols of th
 The preprocessed xml-files wrap the speaker and his/her speech by introducing an additional tag("abschnitt"). This custom specification simplifies data analysis.
 The csv-file contains the columns "datum" (date), "sitzung" (session number), "abschnitt" (section number, seperated by speakers), "name" (the speaker's name), "fraktion" (party), "p_tag_abschnitt" (speech of the section).
 
-This script provides a command line interface. Just insert "python scraper_cli.py ```<number_of protocols requested>``` ´´´<name of party>```" into your shell.
+This script provides a command line interface. Just insert "python scraper_cli.py ```<number_of protocols requested>``` ```<name of party>```" into your shell.
 At the moment, only protocols from the current election period (Wahlperiode 19) are available, that is 171 protocols for now. The possible parties are 'afd', 'fdp', 'cdu', 'spd', 'grüne', 'linke' or 'all' for all parties.
 
 Be sure to have installed the packages that are specified in the requirements.txt py typing "sudo pip install -r requirements.txt".
